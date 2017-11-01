@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.song.baisi.fabiao.FaBiaoActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icon_post_copyright_black" />
+
+
+
+            <ImageView
+
+                android:layout_below="@+id/img"
+                android:id="@+id/img_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/send_video_uninstall" />
+
+            <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/send_picture" />
+
+            <ImageView
+                android:id="@+id/img_text"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/send_text" />
+
+
+
+            <ImageView
+                android:id="@+id/img_voice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/send_voice" />
+
+            <ImageView
+                android:id="@+id/img_line"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/send_link" />
+
+            <ImageView
+                android:id="@+id/img_download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.1"
+                android:src="@drawable/offline_posts" />
+
+
+
+</RelativeLayout>

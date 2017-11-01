@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaiSi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">
+        <Data><![CDATA[<font color="#2027e4">%1$s</font><font color="#5c5959">%2$s</font>]]></Data>
+    </string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\11355\Desktop\QF_BaiSi-master\BaiSi.iml" filepath="C:\Users\11355\Desktop\QF_BaiSi-master\BaiSi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QF_BaiSi-master.iml" filepath="$PROJECT_DIR$/QF_BaiSi-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

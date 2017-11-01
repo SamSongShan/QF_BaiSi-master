@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simple_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            fresco:placeholderImage="@mipmap/ic_launcher"
+            fresco:roundAsCircle="true"/>
+        <TextView
+            android:id="@+id/tv_roomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/simple_head"
+            android:text="田小豆视频"
+            android:textColor="#2027e4"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_roomname"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/simple_head"
+            android:text="2016-11-28"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="让人家情侣去开房,真是好心人呀"
+        android:textColor="#434141"/>
+    <RelativeLayout
+        android:id="@+id/relat_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <SurfaceView
+            android:id="@+id/sf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simple_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/play_tougao"/>
+        <LinearLayout
+            android:id="@+id/line_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/line_dainzan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_dianzan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/bt_dainzan"/>
+            <ImageView
+                android:id="@+id/img_dianzan_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/img_dianzan"
+                android:src="@drawable/dianzan"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/tv_dianzan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_dianzan"
+                android:text="111"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/line_undianzan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/img_undianzan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/bt_undainzan"/>
+            <ImageView
+                android:id="@+id/img_undianzan_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/img_undianzan"
+                android:src="@drawable/undianzan"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_undianzan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_undianzan"
+                android:text="111"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/line_fenxiang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/img_fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/forward_black"/>
+            <TextView
+                android:id="@+id/tv_fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_fenxiang"
+                android:text="111"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/line_pinglun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/img_pinglun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/commend_black"/>
+            <TextView
+                android:id="@+id/tv_pinglun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_pinglun"
+                android:text="111"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:text="最新评论"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
